@@ -1,0 +1,15 @@
+config-version: 1
+##指定的群系
+biomeName: deep_ocean
+##将群系内生成的某个生物替换成要生成的怪物
+replaceEntity: squid
+##要生成的怪物
+entity: guardian
+##true 即在指定群系内生成怪物时,有概率生成其他怪物
+switch: false
+##概率生成怪物的名字
+chanceEnetity: elder_guardian
+##概率 0.1~1.0
+chance: 0.1
+##当该群系生物中要替换生成的怪物超过了设置数字就取消生成 -1则不限制
+limit: -1

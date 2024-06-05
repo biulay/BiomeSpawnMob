@@ -1,0 +1,9 @@
+name: BiomeSpawnMob
+version: '1.1'
+main: biulay.biomespawnmob.BiomeSpawnMob
+api-version: '1.20'
+authors: [ Biulay ]
+commands:
+  biomespawnmob:
+    aliases:
+      - bsm
